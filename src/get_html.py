@@ -2,6 +2,7 @@
 Utility functions to extract the HTML string from the common crawl entries
 """
 
+# strip warc content from warc record
 def extract_html(cc_entry):
     """
     Takes:
